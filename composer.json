@@ -1,0 +1,15 @@
+{
+    "name": "toxygene/nerdery-php-challenge-21",
+    "description": "Nerdery PHP Challenge #21",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Justin Hendrickson",
+            "email": "justin.hendrickson@gmail.com"
+        }
+    ],
+    "require": {
+        "toxygene/json-reader": "^2.0"
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e1cda17950069ea53a486f7e08de7727",
+    "packages": [
+        {
+            "name": "toxygene/json-reader",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/toxygene/JsonReader.git",
+                "reference": "8f6a97e0a3b8dbf1210b72523ad69436924042fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/toxygene/JsonReader/zipball/8f6a97e0a3b8dbf1210b72523ad69436924042fb",
+                "reference": "8f6a97e0a3b8dbf1210b72523ad69436924042fb",
+                "shasum": ""
+            },
+            "require": {
+                "toxygene/stream-reader": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Toxygene\\JsonReader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Justin Hendrickson",
+                    "email": "justin.hendrickson@gmail.com"
+                }
+            ],
+            "time": "2015-09-29 15:11:07"
+        },
+        {
+            "name": "toxygene/stream-reader",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/toxygene/StreamReader.git",
+                "reference": "d0224f178dcf2419dcaec97c9931f22725a686a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/toxygene/StreamReader/zipball/d0224f178dcf2419dcaec97c9931f22725a686a0",
+                "reference": "d0224f178dcf2419dcaec97c9931f22725a686a0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Toxygene\\StreamReader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Justin Hendrickson",
+                    "email": "justin.hendrickson@gmail.com"
+                }
+            ],
+            "time": "2015-09-29 02:11:47"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
